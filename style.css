@@ -89,7 +89,7 @@ input[type=text] {
 }
 
 img {
-  width: 28px;
+  width: 26px;
 }
 
 .right-nev{
@@ -109,6 +109,29 @@ img {
 }
 
 /* post section***************************************************** */
+.user-name{
+  font-weight: 600;
+  color: #525354;
+  letter-spacing: -0.7px;
+}
+
+.left-text{
+  font-weight: 550;
+  color: #4B4C4D;
+  letter-spacing: -0.7px;
+}
+
+.down-head{
+  width: 26px;
+  padding: 7px 7px;
+  background-color: #D8DADF;
+  border-radius: 50%;
+}
+
+hr { display: block; height: 1px;
+  border: 0; border-top: 1px solid #ccc;
+  margin: 0.7em 0; padding: 0; }
+
 .left-container {
   list-style: none;
   display: flex;
@@ -135,7 +158,7 @@ img {
   display: grid;
   grid-template-columns: 0.5fr 2fr 0.5fr;
   /* background-color: #f3f3f3; */
-  padding: 0px 15px;
+  padding: 0px 8px;
 }
 
 .hole-container{
@@ -145,7 +168,7 @@ img {
 .user-section {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 9px;
   padding: 9px 7px;
 
   /* margin-bottom: 12px; */
