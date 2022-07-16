@@ -35,7 +35,9 @@
   justify-content: space-between;
   align-items: center;
   background-color: rgb(255, 255, 255);
-  box-shadow: 2px 2px 7px 1px #edecec;
+  box-shadow: 2px 2px 2px #ebebeb;
+  position: sticky;
+  top: 0;
 }
 
 /* for search box************************************************ */
@@ -69,13 +71,13 @@ input[type="text"] {
   list-style: none;
   display: inline-block;
   background-color: rgb(255, 255, 255);
-  padding: 5px 45px;
+  padding: 5px 47px;
   border-radius: 8px;
   cursor: pointer;
 }
 
 .home:hover {
-  padding: 8px 45px;
+  padding: 8px 47px;
   background-color: rgb(235, 234, 234);
 }
 
@@ -107,7 +109,7 @@ img {
 }
 
 .menu-icon {
-  width: 20px;
+  width: 30px;
 }
 
 /* post section***************************************************** */
@@ -139,22 +141,22 @@ hr {
   padding: 0;
 }
 
-.shortcuts{
+.shortcuts {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.shortcuts-text{
+.shortcuts-text {
   font-weight: 600;
-  color: #65676B;
+  color: #65676b;
 }
 
-.shortcuts, .shortcuts-edit{
+.shortcuts-edit {
   display: none;
 }
 
-.shortcuts, .shortcuts-edit:hover{
+.shortcuts-edit:hover {
   display: flex;
 }
 
@@ -209,6 +211,7 @@ hr {
 
 /* middle post********************************************* */
 .middle-page {
+  padding: 20px 10px;
   display: grid;
   justify-content: space-evenly;
 }
@@ -253,9 +256,14 @@ hr {
 
 .live {
   padding: 4px 25px;
-  background-color: blueviolet;
+  background-color: white;
   border-radius: 10px;
   display: flex;
   align-items: center;
   gap: 5px;
+}
+
+.live:hover{
+  padding: 4px 25px;
+  background-color: #f0f2f5;
 }
