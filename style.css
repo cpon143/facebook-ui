@@ -122,8 +122,8 @@ img {
   overflow-y: hidden;
   height: 30rem;
   scrollbar-width: thin;
-  padding: 8px 7px 5px 15px;
-  margin: 0px 0px 0px 0px;
+  padding: 8px 7px 5px 2px;
+  /* margin: 0px 0px 0px 0px; */
   border-radius: 7px;
 }
 
@@ -135,18 +135,26 @@ img {
   display: grid;
   grid-template-columns: 0.5fr 2fr 0.5fr;
   /* background-color: #f3f3f3; */
-  padding: 25px 15px;
+  padding: 0px 15px;
 }
 
 .hole-container{
-  background-color: #f3f3f3;
+  background-color: #F0F2F5;
 }
 
 .user-section {
   display: flex;
   align-items: center;
   gap: 5px;
-  margin-bottom: 12px;
+  padding: 9px 7px;
+
+  /* margin-bottom: 12px; */
+}
+
+.user-section:hover{
+  border-radius: 8px;
+  padding: 9px 7px;
+  background-color: #E4E6E9;
 }
 
 /* middle post********************************************* */
